@@ -1,0 +1,325 @@
+.main-class {
+    display: flex;
+    background: #F8FAFF; 
+  }
+  .boxe {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    height: 732px; 
+  }
+  .right-box{
+    margin-top:100px;
+    margin-right: 100px;
+  }
+  .left-box {
+    background-image: url('C:\Users\jasmine p\Desktop\project-openinapp\dashboard\src\assets\Left.svg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .logo-text{
+    text-align: flex-start;
+    color: #FFF;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 122.687%; 
+    letter-spacing: 0.36px;
+    padding-top: 59.81px;
+    padding-left: 72.99px;
+    padding-right: 578px;
+  }
+  
+  .centered-text {
+    text-align: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 171px;
+    padding-right: 302.99px;
+    padding: 250px;
+  }
+  .main-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .left-box {
+    position: relative;
+  }
+  .top-left-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-container {
+    display: flex;
+    width: 299px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.icon-container i {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    color: white !important;
+    font-size: 32px;
+}
+.sign-in-text{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.sign-in-text h2{
+  margin-bottom: -40px;
+  color: #000;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 143.806px;
+height: 48.301px;
+flex-shrink: 0;
+}
+.sign-in-text h6{
+  width: 176.738px;
+height: 20.857px;
+flex-shrink: 0;
+color: #000;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.login-container{
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 20px;
+    width: 500.635px;
+height: 387.988px;
+flex-shrink: 0;
+   border-radius: 20px;
+    background: #FFF;;
+}
+
+.social-accounts {
+    display: flex; /* Use flexbox to arrange the elements horizontally */
+    margin-bottom: 30px;
+}
+.holder{
+  margin-left: -20px;
+}
+
+.social-accounts > div {
+    display: inline-block; 
+    margin-right: 35px; 
+}
+.social-accounts h6 {
+    display: flex; 
+    align-items: center;
+}
+.social-accounts h6 img {
+    margin-right: 10px;
+}
+.icon1{
+    margin-left: 20px;
+    height: 40px;
+    width: 200px;
+}
+.inputforms {
+width: 356.77px;
+height: 18.91px;
+flex-shrink: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+background: var(--field-color-darker, #EAEAEA);
+}
+.mobile-board-heading{
+  display: none;
+}
+.labelss{
+  color: #000;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+margin-bottom: 10px;
+width: 105.384px;
+height: 20.857px;
+flex-shrink: 0;
+}
+.forgot-password-link{
+  margin-left: 28px;
+  width: 136.122px;
+height: 20.857px;
+flex-shrink: 0;
+color: var(--Link, #346BD4);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.registerhere {
+  color: var(--Link, #346BD4);
+  text-decoration: none;
+}
+.register{
+  color: var(--Secondary-Text, #858585);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 286.514px;
+height: 20.857px;
+flex-shrink: 0;
+margin-left: 80px;
+
+}
+.input-container{
+  margin-left: 20px;
+}
+.btn{
+  width: 197.596px;
+height: 38.933px;
+flex-shrink: 0;
+background-color: transparent;
+border: 1px solid #ccc;
+color: var(--Secondary-Text, #858585);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 5px;
+}
+.ic1{
+  margin-right: 30px;
+}
+.primary-btn{
+  width: 400.77px;
+height: 43.91px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #4285F4;
+border: none;
+margin-right: 75px;
+margin-top: 30px;
+margin-left: 25px;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+/* Add responsive CSS for mobile screens */
+@media screen and (max-width: 768px) {
+  /* Hide the left box on mobile */
+  .left-box {
+    display: none;
+  }
+
+  /* Show the "BOARD" heading on mobile */
+  .mobile-board-heading {
+    text-align: center;
+    color: #4285F4;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+    margin-top: -180px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust the styles for the right box on mobile */
+  .right-box {
+    background: #F8FAFF;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  
+  .sign-in-text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left:130px;
+  }
+  .sign-in-text h6{
+    margin-top:-30px;
+    margin-left:130px;
+  }
+  
+  .social-accounts {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icon1{
+    margin-bottom: 20px;
+  }
+
+  .input-container {
+    width: 360px;
+    margin-left: 120px;
+  }
+  .forgot-password-link{
+    margin-left:130px;
+  }
+
+  
+  .primary-btn{
+    margin-top: 20px;
+    width: 200px;
+    margin-right: 175px;
+  }
+  
+  .register {
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+  
+
+  
+  
